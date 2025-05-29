@@ -1,0 +1,76 @@
+header{
+    background-color: blueviolet;
+    width: 100%;
+    font-size:80px ;
+    color:antiquewhite;
+    text-align: right;
+    font-family: "Lobster", sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav li{
+    margin-right: auto;
+}
+nav{
+    padding: 10px;
+    background-color: azure;
+
+}
+nav a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    padding: 15px 15px;
+}
+
+nav a:hover{
+background-color: aqua;
+border-radius: 5px;
+}
+hr{
+    margin-top: 0px;
+}
+footer {
+    background-color: #444; /* Темный фон футера */
+    color: white; /* Цвет текста */
+    text-align: center; /* Центрирование текста */
+    padding: 20px; /* Отступы внутри футера */
+}
+
+.footer-content p {
+    margin: 5px 0; /* Отступы для параграфов */
+}
+
+.social-links {
+    margin-top: 10px; /* Отступ сверху для блока с ссылками */
+}
+
+.social-icon {
+    display: inline-block; /* Отображение иконок в строку */
+    margin: 0 10px; /* Отступы между иконками */
+}
+
+.social-icon img {
+    width: 30px; /* Ширина иконок */
+    height: 30px; /* Высота иконок */
+    transition: transform 0.3s; /* Плавный переход для эффекта при наведении */
+}
+
+.social-icon:hover img {
+    transform: scale(1.1); /* Увеличение иконки при наведении */
+}
+main{
+    font-size: 20px;
+font-family: "Lobster", sans-serif;
+
+
+}
+.kartochka{
+    border: 3px solid aqua;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
